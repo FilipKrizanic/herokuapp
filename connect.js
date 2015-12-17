@@ -1,6 +1,6 @@
 var net=require('net');
 var socket=new net.Socket();
-var IP="";
+var IP="https://damned3.herokuapp.com/";
 var PORT=80;
 
 socket.setTimeout(90000,function(){console.log("TIMEOUT_TRIGGERED\n");socket.destroy();});
@@ -19,5 +19,15 @@ socket.connect(PORT,IP_ARR['SIHOT_SRV'],function(err){
 
 });
 
-
-
+/* 
+heroku open
+heroku logs
+heroku info
+heroku status
+heroku buildpacks
+heroku info -s | grep web_url | cut -d= -f2    or to set the variable    heroku config:set HEROKU_URL=$(heroku info -s | grep web_url | cut -d= -f2)
+heroku buildpacks:set https://github.com/heroku/heroku-buildpack-nodejs#v87 -a my-app      v87 check versions!:   https://github.com/heroku/heroku-buildpack-nodejs/releases
+heroku git:remote -a damned3   (damned3=pipeline-app name)
+git push origin master
+git push heroku master
+*/
