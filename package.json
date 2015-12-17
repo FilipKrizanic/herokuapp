@@ -1,10 +1,10 @@
 {
-  "name": "web.js",
+  "name": "heroku",
   "version": "1.0.0",
   "description": "Node test",
   "main": "web.js",
   "dependencies": {
-    "net": "^1.0.2"
+    "path": "^0.12.7"
   },
   "devDependencies": {},
   "scripts": {
@@ -14,7 +14,7 @@
     "type": "git",
     "url": "git+https://github.com/FilipKrizanic/herokuapp.git"
   },
-  "author": "Filip",
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/FilipKrizanic/herokuapp/issues"
