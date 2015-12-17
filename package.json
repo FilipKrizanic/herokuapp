@@ -1,7 +1,7 @@
 {
-  "name": "main",
+  "name": "web.js",
   "version": "1.0.0",
-  "description": "",
+  "description": "Node test",
   "main": "web.js",
   "dependencies": {
     "net": "^1.0.2"
