@@ -1,0 +1,23 @@
+{
+  "name": "main",
+  "version": "1.0.0",
+  "description": "",
+  "main": "web.js",
+  "dependencies": {
+    "net": "^1.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FilipKrizanic/herokuapp.git"
+  },
+  "author": "Filip",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FilipKrizanic/herokuapp/issues"
+  },
+  "homepage": "https://github.com/FilipKrizanic/herokuapp#readme"
+}
